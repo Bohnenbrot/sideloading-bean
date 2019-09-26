@@ -1,7 +1,7 @@
 Package: com.apple-sider.minecraft
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Nathan <ariya.av@hotmail.com>
+Version: 2.1.5965
+Architecture: amd64
+Maintainer: Nathan <ariya.av@hotmail.com>, Petr Mrázek <petr@mojang.com>
 Filename: /minecraft.deb
 Size: 49396427
 MD5sum: 49613012cf1f6d0305b57ba9ca222aad
@@ -9,5 +9,7 @@ SHA1: cd9645546c6199c9b231ce4c3c479a01bd2c6d2d
 SHA256: 76e5484363ae4a5fff39642116b8cd7bc9edae8bccd6af838ae23c16b94fa5d8
 Section: app
 Description: just minecraft from the minecraft website
+Pre-depends: dpkg (>= 1.14.0), wget | curl
+Depends: oracle-java8-installer | openjdk-8-jre, gconf-service, libasound2 (>= 1.0.23), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.1.4), libexpat1 (>= 1.95.8), libfontconfig1 (>= 2.8.0), libgcc1 (>= 1:4.1.1), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk2.0-0 (>= 2.24.0), libnspr4 (>= 1.8.0.10), libnss3 (>= 3.17.2), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.8.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxrender1, libxss1, libxtst6, libx11-xcb1, libxcb1, libbz2-1.0, lsb-base (>= 4.1), xdg-utils (>= 1.0.2), wget, libcurl3 | libcurl4
 Author: MOJANG
 Name: Minecraft
