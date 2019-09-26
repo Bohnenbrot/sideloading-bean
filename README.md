@@ -1,2 +1,0 @@
-# sideloading-bean
-sideloaded apps 
