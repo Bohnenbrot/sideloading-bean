@@ -1,0 +1,13 @@
+Package: com.sideloading-bean.minecraft
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Nathan <ariya.av@hotmail.com>
+Filename: /minecraft.deb
+Size: 49396427
+MD5sum: 49613012cf1f6d0305b57ba9ca222aad
+SHA1: cd9645546c6199c9b231ce4c3c479a01bd2c6d2d
+SHA256: 76e5484363ae4a5fff39642116b8cd7bc9edae8bccd6af838ae23c16b94fa5d8
+Section: app
+Description: just minecraft from the minecraft website
+Author: MOJANG
+Name: Minecraft
